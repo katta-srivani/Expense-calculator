@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="main-box">
+
+    <h1>Expense Tracker</h1>
+
+    <div id="totals">
+        <p>Total Income: <span id="totalIncome">0</span></p>
+        <p>Total Expenses: <span id="totalExpense">0</span></p>
+        <p>Net Balance: <span id="netBalance">0</span></p>
+    </div>
+
+    <div id="container1">
+        <input type="text" id="descInput" placeholder="Description">
+        <input type="number" id="incomeinput" placeholder="Enter income">
+        <input type="number" id="expenseinput" placeholder="Enter expense">
+    </div>
+
+    <!-- FILTERS -->
+    <div id="container2">
+        <label><input type="radio" name="filter" value="all" checked> All</label>
+        <label><input type="radio" name="filter" value="income"> Income</label>
+        <label><input type="radio" name="filter" value="expense"> Expense</label>
+    </div>
+
+    <div id="con">
+        <button>Add Entry</button>
+    </div>
+
+    <button id="resetBtn">Reset</button>
+
+    <h3>Entries</h3>
+    <div id="entriesList"></div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,146 @@
+/* RESET */
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* PAGE BACKGROUND */
+body {
+    background: #e5e5e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* === SINGLE MAIN CONTAINER === */
+.main-box {
+    background: white;
+    width: 300px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    position: relative;
+}
+
+/* REMOVE SEPARATE CARD FEEL */
+#totals,
+#container1,
+#container2 {
+    width: 100%;
+    padding: 0;
+    box-shadow: none;
+}
+
+/* Totals */
+#totals {
+    text-align: center;
+}
+
+#totals p {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 4px 0;
+}
+
+#totals span {
+    font-weight: 700;
+    color: #2b7a0b;
+}
+
+/* Inputs */
+#container1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#container1 input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+/* Add Button */
+#con button
+ {
+    width: 100%;
+    padding: 12px;
+    background: #2ecc71;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+}
+#button1 {
+    width: auto;
+    padding: 6px 12px;
+    font-size: 13px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+
+    position: absolute;
+    bottom: 12px;
+    left: 50%;                 /* Move to center */
+    transform: translateX(-50%); /* Adjust by half width */
+
+    background: #e74c3c;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+#con button:hover,
+#button1:hover {
+    background: #27ae60;
+}
+
+/* Filter */
+#container2 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+/* Entries */
+#entriesList {
+    margin-top: 10px;
+}
+/* Entry Styles */
+#entriesList div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 6px;
+    margin-bottom: 6px;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+.income {
+    color: green;
+    border-left: 4px solid green;
+    padding-left: 8px;
+}
+
+.expense {
+    color: red;
+    border-left: 4px solid red;
+    padding-left: 8px;
+}
+
+#entriesList button {
+    padding: 4px 8px;
+    font-size: 12px;
+    cursor: pointer;
+}
+

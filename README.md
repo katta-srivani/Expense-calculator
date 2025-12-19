@@ -1,50 +1,70 @@
 # Income Expense Calculator
 
-A simple and responsive Income Expense Calculator built using HTML, CSS, and JavaScript.  
-This application helps users track their income and expenses and view their financial balance.
+A fully functional **Income Expense Calculator** built using **HTML, CSS, and JavaScript**.
+
+This web app allows users to add, edit, delete, and filter income and expense entries, while showing real-time totals of income, expenses, and net balance. The project implements proper CRUD operations and uses local storage to persist data across sessions.
 
 ---
 
-## ✨ Features
+## 📌 Features
 
-- Add income and expense entries
-- Edit existing entries
-- Delete entries
-- Filter entries (All / Income / Expense)
-- Display total income, total expenses, and net balance
-- Data persistence using Local Storage
-- Responsive design for mobile and desktop
-
----
-
-## 🛠️ Technologies Used
-
-- HTML
-- CSS
-- JavaScript
+✔ Clean, intuitive layout using HTML & CSS  
+✔ Input fields for description and amount  
+✔ Ability to add income or expense entries  
+✔ Filters using radio buttons: **All | Income | Expense**  
+✔ List of all entries with **Edit** and **Delete** options  
+✔ Shows **Total Income**, **Total Expense**, and **Net Balance**  
+✔ Reset button to clear input fields  
+✔ Data stored in **localStorage** for persistence  
+✔ Responsive design for both desktop and mobile  
 
 ---
 
+## 🛠️ CRUD Operations
 
-
-
-## 🚀 How to Run the Project
-
-1. Download or clone the repository  
-2. Open `index.html` in a web browser  
-3. Start adding income and expense entries  
+- **Create:** Add new income or expense entry  
+- **Read:** Display all saved entries dynamically  
+- **Update:** Edit existing entry details  
+- **Delete:** Remove entries from the list
 
 ---
 
-## 📌 Future Enhancements
+## ⚙️ How It Works
 
-- Add date and category fields
-- Monthly summary report
-- Export data feature
+1. Enter a **description** and **amount**.  
+2. Choose income or expense.  
+3. Click **Add Entry**.  
+4. Use filters to view specific types.  
+5. Click **Edit** on an entry to modify it.  
+6. Click **Delete** to remove it.  
+
+The totals (income, expense, net balance) update accordingly.
 
 ---
+
+## 📂 Tech Stack
+
+- **HTML**  
+- **CSS**  
+- **JavaScript**
+
+---
+
+
+## 🧠 How to Run Locally
+
+1. Clone the repository  
+   `git clone https://github.com/katta-srivani/Expense-calculator.git`  
+2. Open `index.html` in a browser  
+3. Start tracking your income and expenses
+
+---
+
+
 
 ## 👩‍💻 Author
 
 **Srivani Katta**  
-Frontend Developer (Fresher)
+Frontend Developer (Fresher)  
+📧 kattasrivani74@gmail.com
+
